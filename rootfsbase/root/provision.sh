@@ -18,8 +18,8 @@ ln -s /boot/wifi_config.txt /etc/wpa_supplicant/wpa_supplicant.conf
 
 echo "root:changethis" | chpasswd
 
-echo "test it all, now.  spawning bash:"
-bash
+#echo "test it all, now.  spawning bash:"
+#bash
 
 echo -e "deb http://archive.raspbian.org/raspbian wheezy main contrib non-free\ndeb http://archive.raspberrypi.org/debian wheezy main" > /etc/apt/sources.list
 
